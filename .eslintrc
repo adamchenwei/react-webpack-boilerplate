@@ -23,5 +23,12 @@
     "semi": "warn",
     "arrow-body-style": "off",
     "no-multiple-empty-lines": ["warn", {"max": 1}]
-  }
+  },
+  "settings": {
+		"import/resolver": {
+			"alias": [
+        [ "mycomponents", "./app/components" ]
+      ]
+		}
+	}
 }
