@@ -37,6 +37,9 @@ const config = {
   },
 
   resolve: {
+    alias: {
+      mycomponents: resolve(__dirname, 'app/components/'),
+    },
     extensions: ['.js', '.jsx'],
   },
 
